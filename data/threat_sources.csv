@@ -1,0 +1,10 @@
+source_id,name,source_type,description,capability,intent,targeting,range_of_effects
+TS-01,Financially motivated cybercriminals,Adversarial,"Phishing crews and initial-access brokers who sell or ransom stolen PII and network access",High,High,Moderate,
+TS-02,Opportunistic internet scanners,Adversarial,"Automated campaigns that scan for known vulnerabilities in internet-facing web applications",Moderate,Moderate,Low,
+TS-03,Malicious or curious insider,Adversarial,"An HR specialist or administrator who misuses legitimate access to view or take employee records",Moderate,Low,High,
+TS-04,Former workforce member,Adversarial,"A departed employee or contractor whose portal or service account was not disabled",Low,Moderate,High,
+TS-05,Compromised third party,Adversarial,"An attacker who breaches the payroll provider or benefits carrier and reaches Acme data through the interconnection",High,Moderate,Moderate,
+TS-06,Privileged user error,Accidental,"A system administrator or HR administrator who makes a configuration or role-assignment mistake",,,,Moderate
+TS-07,Certificate and key lifecycle failure,Structural,"Expired or mismanaged certificates and keys that break trusted connections",,,,Low
+TS-08,Cloud provider service outage,Structural,"Regional outage of compute, storage, or managed database services in the IaaS tenant",,,,Moderate
+TS-09,Natural disaster at provider site,Environmental,"Fire, flood, or severe weather that destroys a provider availability zone",,,,Moderate
